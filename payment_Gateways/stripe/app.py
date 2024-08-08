@@ -44,7 +44,7 @@ def charge():
 if __name__ == '__main__':
      app.run()
 
-# endpoint_secret = 'whsec_467df7f61fad74ef4a6a61ff155cf461cc155a8f9e36322a3f65b6479c3301f5'
+endpoint_secret = 'Put your endpoint here'
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
